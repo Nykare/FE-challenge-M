@@ -1,4 +1,4 @@
-# Vite + Svelte + TS
+# Vite + Svelte + TS + Tailwind
 
 ## Prerequisites
 
