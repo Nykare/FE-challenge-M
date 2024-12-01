@@ -16,7 +16,7 @@
 4. Follow the prompts to create a new Docker container.
 5. Once the container is created, open a terminal in VSC from **Terminal > New Terminal**.
 
-### Clone the repository
+### Option A: Clone the repository
 
 Clone the repository and navigate to its directory.
 
@@ -36,7 +36,7 @@ Run the development server.
 npm run dev
 ```
 
-### Recreating the project
+### Option B: Recreating the project
 
 To recreate this project from scratch, follow these steps.
 
