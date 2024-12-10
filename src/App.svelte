@@ -11,11 +11,6 @@
   import ServiceDesign from './ServiceDesign.svelte';
   import ServiceSoftwareDevelopment from './ServiceSoftwareDevelopment.svelte';
   import ServiceContentWriting from './ServiceContentWriting.svelte';
-
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches && localStorage.theme!='light'){
-    localStorage.theme = 'dark';
-  }
-
 </script>
 
 <header class="fixed z-50 flex justify-between items-center rounded-[15px] top-[15px] left-[15px] right-[15px] inset-x-5 shadow-[0px_10px_40px_rgba(0,0,0,0.06)] dark:shadow-none bg-white dark:bg-gray-overlay">
