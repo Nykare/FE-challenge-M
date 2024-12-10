@@ -1,4 +1,7 @@
 <script lang="ts">
+	if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches && localStorage.theme!='light'){
+    		localStorage.theme = 'dark';
+  	}
 	let darkMode = false;
 	function toggleDarkMode(){
 		darkMode = !darkMode;
